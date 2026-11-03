@@ -1,0 +1,33 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Test caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# durable state — never commit a local database or run logs
+.durable/
+*.db
+*.db-wal
+*.db-shm
+
+# Editors and OS noise
+.vscode/
+.idea/
+.DS_Store
